@@ -1,63 +1,70 @@
-# React Image Gallery
+# Getting Started with Create React App
 
-This project is a simple image gallery built with React and styled using Tailwind CSS. It fetches image data from a local JSON file and displays four images at a time, allowing users to navigate through the images using next and previous buttons.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Structure
+## Available Scripts
 
-```
-react-image-gallery
-├── public
-│   ├── index.html          # Main HTML file
-│   └── api
-│       └── dummy.json     # JSON file containing image data
-├── src
-│   ├── index.jsx          # Entry point for the React application
-│   ├── App.jsx            # Main App component
-│   ├── components
-│   │   ├── Gallery.jsx    # Component for displaying images
-│   │   └── EdgePanel.jsx  # Component for additional controls
-│   ├── styles
-│   │   └── index.css      # Global styles and Tailwind CSS imports
-│   └── assets             # Directory for additional assets
-├── package.json           # npm configuration file
-├── tailwind.config.js     # Tailwind CSS configuration
-├── postcss.config.js      # PostCSS configuration
-├── README.md              # Project documentation
-└── .gitignore             # Git ignore file
-```
+In the project directory, you can run:
 
-## Setup Instructions
+### `npm start`
 
-1. **Clone the repository:**
-   ```
-   git clone <repository-url>
-   cd react-image-gallery
-   ```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-2. **Install dependencies:**
-   ```
-   npm install
-   ```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-3. **Run the application:**
-   ```
-   npm start
-   ```
+### `npm test`
 
-4. **Open your browser:**
-   Navigate to `http://localhost:3000` to view the gallery.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Usage
+### `npm run build`
 
-- The gallery displays four images at a time.
-- Use the "Next" and "Previous" buttons to navigate through the images.
-- The EdgePanel component can be customized to show additional information or controls.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Customization
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- You can modify the `dummy.json` file to change the images displayed in the gallery.
-- Tailwind CSS can be customized in the `tailwind.config.js` file to adjust styles as needed.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## License
+### `npm run eject`
 
-This project is licensed under the MIT License.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
